@@ -1,0 +1,82 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+// DEFAULT
+ul.conbar-brand {
+  padding: 5px;
+}
+
+ul.conbar-brand li {
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+  padding-right: 5px;
+}
+
+ul.conbar-brand li img {
+  margin-top: -5px;
+}
+
+conbar-brand ul li a,i {
+  text-decoration: none;
+  color: blue;
+}
+
+ul.conbar-brand li a:hover {
+  color: blue;
+}
+
+// CLASS
+.btn-xlarge {
+  font-size: 1.7em;
+}
+
+.carousel img {
+  
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.conbar {
+  background-color: #e7e7e7;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 14px;
+  padding-bottom: 0px;
+  padding-top: 7px;
+}
+
+.navbar img {
+  display: block;
+  margin-top: -45px;
+  margin-left: 25px;
+  padding-right: 0px;
+  height: 80px;
+}
+.search-btn {
+  font-size: 24px;
+  color: black;
+
+}
+// ID
+
+#logo {
+  height: 35px;
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
