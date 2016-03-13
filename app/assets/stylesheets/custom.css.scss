@@ -4,6 +4,37 @@
 @import "font-awesome";
 
 // DEFAULT
+body {
+  margin-bottom: 60px;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  background-color: #f2f2f2;
+  height: 60px;
+}
+
+footer a:hover {
+  color: #222
+}
+
+footer small {
+  float: left; 
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
+
 ul.conbar-brand {
   padding: 5px;
 }
@@ -60,6 +91,11 @@ ul.conbar-brand li a:hover {
   padding-right: 0px;
   height: 80px;
 }
+
+.push {
+  height: 50px;
+}
+
 .search-btn {
   font-size: 24px;
   color: black;

@@ -5,6 +5,10 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
   root 'pages#home'
+  get 'about', to: 'pages#about'
+  get 'faq', to: 'pages#faq'
+  get 'contact', to: 'pages#contact'
+  get 'whitetail', to: 'pages#whitetail'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
