@@ -3,6 +3,9 @@
 @import "bootstrap";
 @import "font-awesome";
 
+// GLOBAL
+$main-color-1: green;
+
 // DEFAULT
 body {
   margin-bottom: 60px;
@@ -82,6 +85,18 @@ ul.conbar-brand li a:hover {
   font-size: 14px;
   padding-bottom: 0px;
   padding-top: 7px;
+}
+
+.fa-color-main {
+  color: $main-color-1;
+}
+
+.fa-black {
+  color: black;
+}
+
+.fa-white {
+  color: white;
 }
 
 .navbar img {

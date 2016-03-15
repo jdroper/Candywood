@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'faq', to: 'pages#faq'
   get 'contact', to: 'pages#contact'
   get 'whitetail', to: 'pages#whitetail'
+  get 'lodge', to: 'pages#lodge'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
